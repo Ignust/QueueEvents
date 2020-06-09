@@ -5,7 +5,8 @@
 
 #include "IReceiver.hpp"
 #include "IQueue.hpp"
-#include"memory"
+
+//#include"memory"
 
 class A: public IReceiver
 {

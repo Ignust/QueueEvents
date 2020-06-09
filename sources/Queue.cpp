@@ -1,4 +1,4 @@
-#include"../haders/Queue.hpp"
+#include"Queue.hpp"
 
 
 #include <thread>
@@ -46,8 +46,8 @@ void Queue::run()
 void Queue::processEvent(tEvent event)
 //------------------------------------------------------------------------------------------
 {
-    //std::thread th([&](){mA->receiveEvent(event.fancID_, event.buffer);});
-    //th.detach();
+    std::thread th([&](){mA->receiveEvent(event.fancID_, event.buffer);});
+    th.detach();
     //std:: thread th2 ([](){});
     //pthread_create([](){});
     return;
