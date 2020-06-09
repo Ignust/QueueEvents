@@ -1,4 +1,4 @@
-#include"../haders/A.hpp"
+#include"A.hpp"
 
 //------------------------------------------------------------------------------------------
 A::A(std::shared_ptr<IQueue> poolEvent)

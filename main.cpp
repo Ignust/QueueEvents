@@ -1,6 +1,6 @@
 #include <iostream>
-#include "haders/Queue.hpp"
-#include "haders/A.hpp"
+#include "Queue.hpp"
+#include "A.hpp"
 
 using namespace std;
 
